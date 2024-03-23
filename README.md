@@ -20,14 +20,14 @@
   <p align="center">
      Advanced Captcha Solving with Artificial Intelligence
     <br />
-    <a href="https://github.com/tr4umaw/token-generator"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/9nfamous/token-generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/tr4umaw/token-generator">View Demo</a>
+    <a href="https://github.com/9nfamous/token-generator">View Demo</a>
     ·
-    <a href="https://github.com/tr4umaw/token-generator">Report Bug</a>
+    <a href="https://github.com/9nfamous/token-generator">Report Bug</a>
     ·
-    <a href="https://github.com/tr4umaw/token-generator">Request Feature</a>
+    <a href="https://github.com/9nfamous/token-generator">Request Feature</a>
   </p>
 </div>
 
@@ -48,7 +48,7 @@ Unlock the potential of cutting-edge AI technology for captcha solving with Toke
 
 1. * download the repository or clone using
   ```sh
-  git clone https://github.com/tr4umaw/token-generator.git
+  git clone https://github.com/9nfamous/token-generator.git
   ```
 2.   * run the ```setup.bat``` file
   
@@ -64,7 +64,7 @@ Unlock the potential of cutting-edge AI technology for captcha solving with Toke
 1. Open your terminal. and
    * clone
   ```sh
-  git clone https://github.com/tr4umaw/token-generator.git
+  git clone https://github.com/9nfamous/token-generator.git
   ```
    * or download the zip
 3.   * navigate to dir
@@ -89,21 +89,21 @@ Ensure your system meets these prerequisites:
 3. Windows 10 or 11.
 4. A curious mind.
 
-> Note: As of nov  march 1st , 2024, Token-Gen-AI is fully operational. We will promptly update if any patches become necessary. Remember, sharing knowledge benefits everyone; please provide credit if you find our work valuable.
+> Note: As of nov  march 23rd , 2024, Token-Gen-AI is fully operational. We will promptly update if any patches become necessary. Remember, sharing knowledge benefits everyone; please provide credit if you find our work valuable.
 
 > To aspiring developers: This source code is generously shared to facilitate understanding of machine learning in captcha-solving—an outcome of our dedication and hard work.
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/tr4umaw/token-generator.svg?style=for-the-badge
-[contributors-url]: https://github.com/dtr4umaw/token-generator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tr4umaw/token-generator.svg?style=for-the-badge
-[forks-url]: https://github.com/tr4umaw/token-generator/network/members
-[stars-shield]: https://img.shields.io/github/stars/tr4umaw/token-generator.svg?style=for-the-badge
-[stars-url]: https://github.com/discordtics/token-gen/stargazers
-[issues-shield]: https://img.shields.io/github/issues/tr4umaw/token-generator.svg?style=for-the-badge
-[issues-url]: https://github.com/tr4umaw/token-generator/issues
-[license-shield]: https://img.shields.io/github/license/tr4umaw/token-generator.svg?style=for-the-badge
-[license-url]: https://github.com/tr4umaw/token-generator/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/9nfamous/token-generator.svg?style=for-the-badge
+[contributors-url]: https://github.com/9nfamous/token-generator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/9nfamous/token-generator.svg?style=for-the-badge
+[forks-url]: https://github.com/9nfamous/token-generator/network/members
+[stars-shield]: https://img.shields.io/github/stars/9nfamous/token-generator.svg?style=for-the-badge
+[stars-url]: https://github.com/9nfamous/token-generator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/9nfamous/token-generator.svg?style=for-the-badge
+[issues-url]: https://github.com/9nfamous/token-generator/issues
+[license-shield]: https://img.shields.io/github/license/9nfamous/token-generator.svg?style=for-the-badge
+[license-url]: https://github.com/9nfamous/token-generator/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
@@ -113,6 +113,7 @@ Ensure your system meets these prerequisites:
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
+
 
 
 
