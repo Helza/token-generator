@@ -57,8 +57,8 @@ def icececeecii ():
         icececeecii()
 
 
-rl11 = "1210682716207587411"
-ppkl = "1213540134537003068"
+rl11 = "1221158414575472724"
+ppkl = "1221158898757799996"
 discord_api_int_version = "89177737318179831"
 
 fnk = "x"
